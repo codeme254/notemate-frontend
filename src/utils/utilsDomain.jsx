@@ -1,2 +1,2 @@
-const apiDomain = "https://localhost:8081"
+const apiDomain = "https://notemateapi.azurewebsites.net"
 export default apiDomain;
