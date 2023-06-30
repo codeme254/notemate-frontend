@@ -1,0 +1,95 @@
+.user-account__form {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.update-form-inactive {
+  /* height: 0; */
+  display: none;
+}
+
+fieldset {
+  padding: 2rem;
+}
+
+legend {
+  color: var(--color-blue-dark);
+  font-weight: 600;
+  padding: 0 2rem;
+}
+
+.form-update__controls {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.form-update-btn {
+  margin-right: 1rem;
+  border: none;
+  outline: none;
+  background-color: var(--color-blue-dark);
+  padding: 2rem 3rem;
+  color: var(--color-white);
+  text-transform: capitalize;
+}
+
+.form-cancel-btn {
+  display: inline-block;
+  padding: 2rem 3rem;
+  text-decoration: none;
+  background-color: var(--color-blue-light);
+  border: none;
+  outline: none;
+  color: var(--color-white);
+  text-transform: capitalize;
+}
+
+.account-controls {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem auto;
+}
+
+.account__avatar {
+  --size: 8rem;
+  width: var(--size);
+  height: var(--size);
+  background-color: var(--color-blue-dark);
+  color: var(--color-white);
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  /* border-radius: 50%; */
+}
+
+.account-controls__text {
+  font-size: 2rem;
+  color: var(--color-blue-dark);
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.account-controls__btns {
+  display: flex;
+  justify-content: center;
+}
+
+.controls__btn {
+  padding: 2rem 3rem;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background-color: var(--color-blue-light);
+  text-transform: capitalize;
+  font-weight: bold;
+  color: var(--color-white);
+  margin-right: 0.5rem;
+  cursor: pointer;
+}

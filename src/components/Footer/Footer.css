@@ -1,0 +1,25 @@
+.footer {
+  background-color: var(--color-blue-dark);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.footer__text {
+  color: var(--color-white);
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+.footer__link {
+  display: inline-block;
+  padding: 1rem;
+  color: #fff;
+  background-color: var(--color-secondary);
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}

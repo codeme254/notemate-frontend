@@ -1,0 +1,50 @@
+.studio__container {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.studio__container--title {
+  color: var(--color-secondary);
+  margin-bottom: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.editor {
+  /* min-height: 80vh; */
+  border-radius: 10px;
+  overflow: hidden;
+  color: #222;
+}
+
+.editing-area {
+  min-height: 80vh;
+  color: #222;
+}
+
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  padding: 1rem 4rem;
+  background-color: var(--color-blue-dark);
+  color: var(--color-white);
+  font-size: 1.7rem;
+  margin-right: 1rem;
+}
+
+.btn-cancel,
+.btn-cancel:visited {
+  text-decoration: none;
+  background-color: red;
+  color: var(--color-white);
+  font-size: 1.7rem;
+  padding: 1rem 4rem;
+  text-transform: capitalize;
+}

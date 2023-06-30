@@ -1,0 +1,6 @@
+@media screen and (max-width: 850px) {
+  .explore-notes__container {
+    width: 98vw !important;
+    margin: 3rem auto !important;
+  }
+}

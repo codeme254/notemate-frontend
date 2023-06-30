@@ -1,0 +1,72 @@
+.user-note {
+  --border: 1px solid #ccc;
+  width: 100%;
+  margin: 2rem auto;
+  border-top: var(--border);
+  border-bottom: var(--border);
+  padding: 2rem 0;
+}
+
+.user-note__title {
+  margin-bottom: 0.5rem;
+  color: var(--color-blue-dark);
+}
+
+.user-note__synopsis {
+  margin-bottom: 0.5rem;
+  color: var(--color-blue-light);
+  font-weight: bold;
+}
+
+.user-note__date-created {
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.user-note__date-created span {
+  padding: 0.2rem 0.5rem;
+  font-weight: 200;
+  background-color: var(--color-blue-dark);
+  color: var(--color-white);
+  border-radius: 100px;
+}
+
+.user-note__body {
+  line-height: 1.6;
+  font-weight: 500;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.user-note__controls {
+  display: flex;
+  align-items: center;
+}
+
+.user-note__controls__button {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  margin-right: 1rem;
+  background-color: var(--color-blue-dark);
+  color: var(--color-white);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+
+.user-note__controls button:hover {
+  background-color: var(--color-blue-light);
+}
+
+.user-note__controls button svg {
+  margin-right: 0.5rem;
+  --size: 2rem;
+  width: var(--size);
+  height: var(--size);
+}

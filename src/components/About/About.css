@@ -1,0 +1,41 @@
+.about {
+  margin-top: 8rem;
+}
+
+.about__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+  margin: 3rem auto;
+  padding: 3rem;
+}
+
+.about__image {
+  --size: 50rem;
+  width: var(--size);
+  display: block;
+  margin-right: 8rem;
+}
+
+.about__description {
+  font-size: 1.7rem;
+  color: #222;
+  text-align: justify;
+  line-height: 2;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1100px) {
+  .about__container {
+    width: 98vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .about__container {
+    width: 100vw;
+    padding: 1rem;
+    flex-direction: column;
+  }
+}

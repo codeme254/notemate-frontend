@@ -1,0 +1,35 @@
+.user-notes__container {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.prompt-to-take-notes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto;
+}
+
+.prompt-to-take-notes h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: var(--color-blue-dark);
+  margin-bottom: 3rem;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.prompt-to-take-notes a,
+.prompt-to-take-notes a:visited {
+  text-decoration: none;
+  padding: 2rem 4rem;
+  background-color: var(--color-blue-dark);
+  color: var(--color-white);
+  font-weight: bold;
+}
+
+.prompt-to-take-notes a:hover {
+  transition: all 0.5s ease;
+  background-color: var(--color-blue-light);
+}

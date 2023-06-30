@@ -1,0 +1,7 @@
+FaWpexplorer | FiBookOpen |
+TfiWrite | BsPencilSquare | BsFillPenFill |
+Open -> IoMdOpen | MdOpenInNew
+account -> MdOutlineAccountCircle | RiAccountCircleFill | 
+logout -> FiLogOut
+Reading -> FaBookOpenReader | GiRead
+community -> FaPeopleGroup

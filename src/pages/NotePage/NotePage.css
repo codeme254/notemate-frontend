@@ -1,0 +1,61 @@
+.notepage {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.notepage__title {
+  text-align: center;
+  color: var(--color-blue-dark);
+  margin-bottom: 2rem;
+}
+
+.notepage__title span {
+  text-decoration: underline;
+}
+
+.notepage__author {
+  font-style: italic;
+  font-weight: 500;
+  color: var(--color-blue-dark);
+  text-align: center;
+}
+
+.notepage__author--about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+
+.notepage__author--about-box {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--color-blue-dark);
+  color: var(--color-white);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.notepage__author--about-box svg {
+  margin-right: 1rem;
+}
+
+.notepage__synopsis {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-blue-dark);
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+.notepage__body {
+  text-align: justify;
+  line-height: 1.8;
+  color: #222;
+  font-size: 2rem;
+  font-weight: 500;
+}

@@ -1,0 +1,27 @@
+.title-element-container {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: var(--color-secondary);
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.main-title {
+  text-transform: capitalize;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  color: var(--color-blue-dark);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
