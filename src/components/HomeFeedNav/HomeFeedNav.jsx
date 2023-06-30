@@ -45,7 +45,6 @@ const HomeFeedNav = () => {
       },
     });
     const responseData = await response.json();
-    setUsername(null);
     toast.success(responseData.message);
     navigate("/");
   };
