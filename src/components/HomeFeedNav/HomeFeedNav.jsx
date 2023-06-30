@@ -3,10 +3,9 @@ import { UserContext } from "../../Helpers/Context";
 import { useContext, useEffect, useState, useRef } from "react";
 import "./HomeFeedNav.css";
 import { GiRead } from "react-icons/gi";
-import { BsPencilSquare, BsFillStarFill } from "react-icons/bs";
+import { BsPencilSquare, BsFillStarFill, BsPeopleFill } from "react-icons/bs";
 import { FiBookOpen } from "react-icons/fi";
 import { RiAccountCircleFill } from "react-icons/ri";
-import { FaPeopleCarry } from "react-icons/Fa";
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
@@ -75,7 +74,7 @@ const HomeFeedNav = () => {
           <LinkIcon
             to="/community"
             label="community"
-            icon={<FaPeopleCarry />}
+            icon={<BsPeopleFill />}
           />
           <LinkIcon
             to="/favorites"
