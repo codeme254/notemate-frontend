@@ -17,7 +17,7 @@ const getUserFullName = async (username) => {
   const userData = await userInformation.json();
   return {
     firstName: userData.firstName,
-    lastName: userData.lastName,
+    lastName: userData.lastName
   };
 };
 
@@ -87,7 +87,7 @@ const ExploreNotes = () => {
               title={note.title}
               synposis={note.synopsis}
               bodyPreview={note.body}
-              username={note.username}
+              username_={note.username}
               datePosted={new Date(`${note.dateCreated}`).toLocaleString()}
               // initials={`${note.firstName.charAt(0)}${note.lastName.charAt(
               //   0
