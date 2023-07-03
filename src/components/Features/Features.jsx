@@ -13,7 +13,7 @@ import {
 
 const Features = () => {
   return (
-    <section className="landing-features">
+    <section className="landing-features" id="features">
       <TitleElement
         subTitle="features of notemate"
         mainTitle="why notemate is the best solution for you"

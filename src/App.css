@@ -46,6 +46,7 @@ body {
   --texts-color: #9da1a7;
   --color-secondary: #f069a8;
   --color-white: #fff;
+  scroll-behavior: smooth;
 }
 
 .u-center {

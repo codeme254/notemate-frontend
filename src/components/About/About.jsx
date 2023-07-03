@@ -4,7 +4,7 @@ import organizingNotes from "../../assets/organize-notes.svg";
 import { motion } from "framer-motion";
 const About = () => {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <motion.span
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

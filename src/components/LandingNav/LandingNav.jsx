@@ -24,13 +24,13 @@ const LandingNav = () => {
       <nav className="landing-nav__nav" ref={navRef}>
         <ol className="landing-nav__nav-list">
           <li className="landing-nav__nav-list--item">
-            <a href="">home</a>
+            <a href="#home">home</a>
           </li>
           <li className="landing-nav__nav-list--item">
-            <a href="">about</a>
+            <a href="#about">about</a>
           </li>
           <li className="landing-nav__nav-list--item">
-            <a href="">features</a>
+            <a href="#features">features</a>
           </li>
           <li className="landing-nav__cta">
             <div>

@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
+import { Link } from 'react-router-dom';
 import "./LandingHero.css";
 const LandingHero = ({ mainTitle, descriptionText, image }) => {
   return (
-    <section className="landing-hero">
+    <section className="landing-hero" id="home">
       <div className="landing-hero__left">
         <motion.h2
           className="landing-hero__left--heading"
@@ -20,16 +21,18 @@ const LandingHero = ({ mainTitle, descriptionText, image }) => {
         >
           {descriptionText}
         </motion.p>
-        <motion.a
-          href=""
-          className="landing-hero__left--link"
-          initial={{ opacity: 0, y: 100 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-          whileTap={{ scale: 0.9 }}
-        >
-          Get started
-        </motion.a>
+        <Link to="/sign-up">
+          <motion.a
+            // href="/sign-up"
+            className="landing-hero__left--link"
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            Get started
+          </motion.a>
+        </Link>
       </div>
 
       <motion.img
